@@ -27,6 +27,7 @@
     "babel-runtime": "^6.25.0",
     "cbt_tunnels": "^1.2.2",
     "rambda": "^4.2.0",
+    "request": "^2.88.0",
     "request-promise": "^4.2.5",
     "wd": "^1.11.4"
   },
