@@ -6,7 +6,7 @@ This is the **crossbrowsertesting** browser provider plugin for [TestCafe](http:
 ## Install
 
 ```
-npm install testcafe-browser-provider-crossbrowsertesting
+npm install testcafe-browser-provider-crossbrowsertesting-updated
 ```
 
 ## Usage
@@ -14,13 +14,13 @@ npm install testcafe-browser-provider-crossbrowsertesting
 
 You can determine the available browser aliases by running
 ```
-testcafe -b crossbrowsertesting
+testcafe -b crossbrowsertesting-updated
 ```
 
 When you run tests from the command line, use the alias when specifying browsers:
 
 ```
-testcafe crossbrowsertesting:browser1 'path/to/test/file.js'
+testcafe crossbrowsertesting-updated:browser1 'path/to/test/file.js'
 ```
 
 
@@ -35,4 +35,4 @@ testCafe
 ```
 
 ## Author
-Ceda 
+Ceda
