@@ -1,0 +1,45 @@
+{
+  "name": "testcafe-browser-provider-crossbrowsertesting",
+  "version": "1.0.0",
+  "description": "crossbrowsertesting TestCafe browser provider plugin.",
+  "repository": "https://github.com/ceda/testcafe-browser-provider-crossbrowsertesting",
+  "homepage": "https://github.com/ceda/testcafe-browser-provider-crossbrowsertesting",
+  "author": {
+    "name": "Ceda",
+    "email": "pleskac@gmail.com"
+  },
+  "main": "lib/index",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
+  },
+  "keywords": [
+    "testcafe",
+    "browser provider",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.25.0",
+    "cbt_tunnels": "^1.2.2",
+    "rambda": "^4.2.0",
+    "request-promise": "^4.2.5",
+    "wd": "^1.11.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "del": "^2.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^3.0.1",
+    "publish-please": "^5.4.3"
+  }
+}
