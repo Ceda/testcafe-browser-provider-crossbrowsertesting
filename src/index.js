@@ -109,7 +109,7 @@ export default {
         if (!process.env['CBT_TUNNELS_USERNAME'] || !process.env['CBT_TUNNELS_AUTHKEY'])
             throw new Error(AUTH_FAILED_ERROR);
 
-        await CBTConnector.start({ 'username': process.env['CBT_TUNNELS_USERNAME'], 'authkey': process.env['CBT_TUNNELS_AUTHKEY'] }, async function (err) {
+        await CBTConnector.start({ 'username': process.env['CBT_TUNNELS_USERNAME'], 'authkey': process.env['CBT_TUNNELS_AUTHKEY'], nokill: true }, async function (err) {
             if (!err) {
 
                 var colon = browserName.indexOf(':');
