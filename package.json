@@ -1,6 +1,6 @@
 {
   "name": "testcafe-browser-provider-crossbrowsertesting-updated",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "crossbrowsertesting TestCafe browser provider plugin.",
   "repository": "https://github.com/ceda/testcafe-browser-provider-crossbrowsertesting",
   "homepage": "https://github.com/ceda/testcafe-browser-provider-crossbrowsertesting",

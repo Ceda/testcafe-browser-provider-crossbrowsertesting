@@ -31,6 +31,13 @@ const CBT_API_PATHS = {
     })
 };
 
+function getRemote () {
+    if (process.env['CBT_TUNNELS_USE_CLOUD'] === true)
+        return 'hub-cloud.crossbrowsertesting.com';
+
+    return 'hub.crossbrowsertesting.com';
+}
+
 function doRequest (apiPath) {
     var url = apiPath.url;
 
@@ -50,7 +57,7 @@ function doRequest (apiPath) {
 }
 
 async function startBrowser (id, url, capabilities) {
-    webDriver = wd.promiseChainRemote('hub.crossbrowsertesting.com', 80, process.env['CBT_TUNNELS_USERNAME'], process.env['CBT_TUNNELS_AUTHKEY']);
+    webDriver = wd.promiseChainRemote(getRemote(), 80, process.env['CBT_TUNNELS_USERNAME'], process.env['CBT_TUNNELS_AUTHKEY']);
     openedBrowsers[id] = webDriver;
 
     try {
