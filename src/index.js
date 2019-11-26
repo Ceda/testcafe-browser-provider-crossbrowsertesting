@@ -32,7 +32,7 @@ const CBT_API_PATHS = {
 };
 
 function getRemote () {
-    if (process.env['CBT_TUNNELS_USE_CLOUD'] === true)
+    if (process.env.CBT_TUNNELS_USE_CLOUD.match(/true/i))
         return 'hub-cloud.crossbrowsertesting.com';
 
     return 'hub.crossbrowsertesting.com';
