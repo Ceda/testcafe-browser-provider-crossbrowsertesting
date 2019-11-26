@@ -1,6 +1,6 @@
 {
-  "name": "testcafe-browser-provider-crossbrowsertesting",
-  "version": "1.0.0",
+  "name": "testcafe-browser-provider-crossbrowsertesting-updated",
+  "version": "1.0.1",
   "description": "crossbrowsertesting TestCafe browser provider plugin.",
   "repository": "https://github.com/ceda/testcafe-browser-provider-crossbrowsertesting",
   "homepage": "https://github.com/ceda/testcafe-browser-provider-crossbrowsertesting",
@@ -41,6 +41,7 @@
     "gulp": "^4.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^7.0.2",
     "publish-please": "^5.4.3"
   }
 }
